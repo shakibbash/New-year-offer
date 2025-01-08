@@ -1,0 +1,47 @@
+.banner{
+
+
+  border-radius: 16px;
+  
+
+background: linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('images/Banner\ Image.png');
+
+background-size: cover;
+background-repeat: no-repeat;
+height: 600px;
+width:1320px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+margin: 50px auto 0px auto;
+
+}
+.banner-content{
+/* padding:177px 344px; */
+width:632px;
+}
+
+.banner-title{
+  
+  color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+
+.banner-heading{
+  color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 0;
+}
