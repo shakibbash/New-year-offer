@@ -293,3 +293,33 @@ letter-spacing: 0%;
 text-align: center;
 
 }
+
+/* gift section styles */
+.gift-box{
+  width: 1320px;
+height: 662.07px;
+margin:50px auto 0px auto;
+background-color:white;
+background-image: url('/images/Rectangle\ 2.png');
+background-repeat: no-repeat;
+background-position: bottom  ;
+margin-bottom: 5px;
+
+}
+.gift-box-container{
+  display: flex;
+align-items: center;
+}
+
+.gift-box-img{
+  width: 674.82px;
+height: 577.96px;
+margin-right:60px;
+margin-left:60px;
+
+}
+.discount-img{
+  width: 305.69px;
+height: 305.69px;
+margin-left: 177px;
+}
