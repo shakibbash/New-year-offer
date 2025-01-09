@@ -378,3 +378,70 @@ gap:24px
   margin:0 20px 0 20px;
 }
 
+/* subscribe section */
+
+.subscribe{
+  width: 1320px;
+  height: 662.07px;
+  margin:50px auto 0px auto;
+  text-align: center;
+  border-radius: 16px;
+
+  background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-title{
+  color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.subscribe-container{
+padding: 80px;
+}
+.subscribe-description{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.input-field{
+  /* positioning to merge the button */
+  position: relative;
+}
+
+ input[type="email"]{
+  height: 72px;
+  width: 648px;
+  border-radius: 50px;
+
+background: rgb(255, 255, 255);
+padding-left: 30px;
+
+}
+input[type="submit"]{
+  width: 210px;
+height: 76px;
+  border-radius: 0px 50px 50px 0px;
+
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+border: none;
+/* to position the button merging with input field */
+position: absolute;
+right: 210px;
+}
