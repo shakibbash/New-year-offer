@@ -157,3 +157,47 @@ margin-left: 58px;
 /* .vector-img{
   width:100%;
 } */
+
+
+/* details */
+
+.details{
+  width: 1320px;
+height: 482px;
+margin:50px auto 0px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.details-container{
+  
+  font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+
+}
+
+
+
+.txt-red{
+  color: #FF0000;
+}
+
+.join-btn{
+  margin-top:40px;
+  border-radius: 8px;
+
+background: rgb(255, 0, 0);
+color: white;
+padding: 16px 32px 16px 32px;
+border: none;
+
+}
